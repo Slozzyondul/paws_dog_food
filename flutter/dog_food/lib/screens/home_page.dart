@@ -15,8 +15,9 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           leading: Builder(
             builder: (BuildContext context) {
-              return SizedBox(
-                child: ,
+              return GestureDetector(
+                onTap: () {},
+                child: Image.asset("/images/logo.png"),
               );
             },
           ),
